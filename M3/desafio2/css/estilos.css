@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,900;1,400&display=swap");
+
+.card-title
+{
+    font-family: 'Source Sans Pro';
+    font-size: 62pt;
+    color:  #04146c;
+}
+
+.p
+{
+    font-family: 'Source Sans';
+    font-size: 16pt;
+    color:  #04146c;  
+}
+
+.btn
+{   
+    color: white;
+    background-color: #04146c;
+    width: 155px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-variant: small-caps;
+    font-weight: 400;}
+
+@media (max-width: 767) {
+        img{
+            width: 100%;
+        }
+    
+        .h1{
+            text-align: center;
+        }
+    }
+    
+@media (min-width: 768px) {
+        img{
+        width: 80%;
+        }
+        
+    }
